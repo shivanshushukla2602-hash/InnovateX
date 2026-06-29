@@ -1,0 +1,213 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>InnovateX - Team Agency Portfolio</title>
+  <link rel="stylesheet" href="../CSS/styles.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" />
+</head>
+
+<body>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+
+  <div class="alignmentContainer">
+    <header>
+      <h2 class="name" style="
+            font-family: &quot;Montserrat&quot;, sans-serif;
+            margin-top: 0.4em;
+            color: black;
+            font-weight: bold;
+          ">
+        InnovateX
+      </h2>
+      <nav>
+        <ul>
+          <li>
+            <a href="#home">Home</a>
+          </li>
+          <li>
+            <a href="#team">Team</a>
+          </li>
+          <li>
+            <a href="#previous-projects">Archive</a>
+          </li>
+          <li>
+            <a href="#projects">Active</a>
+          </li>
+          <li>
+            <a href="#contacts">Contact</a>
+          </li>
+          <li>
+            <span class="bi bi-moon-fill moon-icon" id="themeBtn"></span>
+          </li>
+        </ul>
+      </nav>
+    </header>
+  </div>
+  <div class="alignmentContainer">
+    <main>
+      <section id="home">
+        <div class="left">
+          <h4 class="hero-subtitle">Capstone Project 2026</h4>
+
+          <h1 class="hero-title">
+            Building Innovative<br />
+            Web Solutions Together
+          </h1>
+
+          <p class="tagline">Design &bull; Develop &bull; Deliver</p>
+
+          <a href="#projects">
+            <button class="btn btn-dark rounded-3 px-4 py-2 fw-bold" id="explore">
+              Explore Projects
+            </button>
+          </a>
+        </div>
+        <div class="right">
+          <div class="hero-card">
+            <h2>9+</h2>
+            <p class="card-text">Projects Delivered</p>
+
+            <h2>5</h2>
+            <p class="card-text">Developers</p>
+
+            <h2>1</h2>
+            <p class="card-text">Team Vision</p>
+          </div>
+        </div>
+      </section>
+      <section id="team">
+        <h2 class="team">Our Team</h2>
+        <div class="team-container"></div>
+      </section>
+      <section id="previous-projects">
+
+
+        <h2 class="team">Featured Work</h2>
+
+        <div class="previous-projects-container">
+
+          <a href="" class="previous-project-card">
+
+            <div class="previous-project-banner youtube-bg">
+
+              <i class="bi bi-youtube"></i>
+
+            </div>
+
+            <div class="previous-project-content">
+
+              <h3>YouTube Clone</h3>
+
+              <p>
+                Responsive YouTube-inspired interface built
+                using HTML and CSS.
+              </p>
+
+            </div>
+
+          </a>
+
+          <a href="#" class="previous-project-card">
+
+            <div class="previous-project-banner flipkart-bg">
+
+              <i class="bi bi-bag-fill"></i>
+
+            </div>
+
+            <div class="previous-project-content">
+
+              <h3>Flipkart Clone</h3>
+
+              <p>
+                Modern e-commerce homepage with banners,
+                products and responsive layouts.
+              </p>
+
+            </div>
+
+          </a>
+
+          <a href="#" class="previous-project-card">
+
+            <div class="previous-project-banner starbucks-bg">
+
+              <i class="bi bi-cup-hot-fill"></i>
+
+            </div>
+
+            <div class="previous-project-content">
+
+              <h3>Starbucks Clone</h3>
+
+              <p>
+                Landing page inspired by Starbucks branding
+                and user experience.
+              </p>
+
+            </div>
+
+          </a>
+
+        </div>
+
+      </section>
+
+      <section id="projects">
+        <h2 class="team">Capstone Projects</h2>
+        <div class="project-container"></div>
+      </section>
+      <section id="contacts">
+        <div class="form-container">
+          <h2 class="text-center mb-4">Contact Us</h2>
+          <form id="contactForm">
+            <div class="mb-3">
+              <label for="name" class="form-label">Name</label>
+              <input type="text" class="form-control" id="name" />
+              <p id="nameMsg"></p>
+            </div>
+            <div class="mb-3">
+              <label for="email" class="form-label">Email address</label>
+              <input type="email" class="form-control" id="email" aria-describedby="emailHelp" />
+              <div id="emailHelp" class="form-text">
+                We'll never share your email with anyone else.
+              </div>
+              <p id="emailMsg"></p>
+            </div>
+            <div class="mb-3">
+              <label for="message" class="form-label">Message</label>
+              <textarea class="form-control" id="message" rows="4"></textarea>
+              <p id="textareaMsg"></p>
+            </div>
+            <button id="submitBtn" type="submit" class="btn btn-dark w-100">
+              Submit
+            </button>
+          </form>
+        </div>
+      </section>
+    </main>
+  </div>
+  <footer>
+    <div class="footer-content">
+      <p>&copy; 2026 InnovateX. All rights reserved.</p>
+      <div class="footer-links">
+        <a href="#home">Home</a>
+        <a href="#team">Team</a>
+        <a href="#previous-projects">Archive</a>
+        <a href="#projects">Active</a>
+        <a href="#contacts">Contact</a>
+      </div>
+    </div>
+  </footer>
+  <script src="../JS/state.js"></script>
+  <script src="../JS/ui.js"></script>
+  <script src="../JS/app.js"></script>
+</body>
+
+</html>
