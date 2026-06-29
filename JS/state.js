@@ -73,6 +73,6 @@ const projects = [
     description: "Team Portfolio Website",
     tech: ["HTML, CSS, JS"],
     github: "https://github.com/sakethreddypingili/InovateX",
-    link: "https://inovatexonline.vercel.app/"
+    link: "#home"
 }
 ];

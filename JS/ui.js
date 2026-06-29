@@ -19,16 +19,18 @@ function renderProjects() {
   const projectContainer = document.querySelector(".project-container");
   projects.forEach(function(project, i) {
     const tech = Array.isArray(project.tech) ? project.tech.join(", ") : project.tech;
+    const isExternal = project.link && project.link.startsWith("http");
+    const linkTarget = isExternal ? 'target="_blank" rel="noopener noreferrer"' : '';
     projectContainer.innerHTML += `
       <div class="flip-card">
         <div class="flip-inner">
           <div class="flip-front project-card">
             <span class="project-num">0${i + 1}</span>
-            <h3><a href="${project.link}" target="_blank" rel="noopener noreferrer">${project.title}</a></h3>
+            <h3><a href="${project.link}" ${linkTarget}>${project.title}</a></h3>
             <span class="flip-hint">↻ hover to see more</span>
           </div>
           <div class="flip-back project-card">
-            <h3><a href="${project.link}" target="_blank" rel="noopener noreferrer">${project.title}</a></h3>
+            <h3><a href="${project.link}" ${linkTarget}>${project.title}</a></h3>
             <p class="project-desc">${project.description}</p>
             <div class="project-footer">
               <span class="tech-pill">${tech}</span>
