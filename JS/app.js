@@ -37,8 +37,6 @@ const emailHelp = document.querySelector("#emailHelp");
 
 const submitBtn = document.querySelector("#submitBtn");
 
-
-
 submitBtn.addEventListener("click" , function(event){
 
     event.preventDefault();
@@ -96,5 +94,3 @@ submitBtn.addEventListener("click" , function(event){
     }
 
 });
-
-
