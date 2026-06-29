@@ -648,6 +648,16 @@ nav a:active {
   margin: 0;
 }
 
+.project-card h3 a {
+  color: inherit;
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.project-card h3 a:hover {
+  color: #007aff;
+}
+
 .flip-hint {
   font-size: 15px;
   color: #bbb;

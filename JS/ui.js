@@ -24,10 +24,11 @@ function renderProjects() {
         <div class="flip-inner">
           <div class="flip-front project-card">
             <span class="project-num">0${i + 1}</span>
-            <h3>${project.title}</h3>
+            <h3><a href="${project.link}" target="_blank" rel="noopener noreferrer">${project.title}</a></h3>
             <span class="flip-hint">↻ hover to see more</span>
           </div>
           <div class="flip-back project-card">
+            <h3><a href="${project.link}" target="_blank" rel="noopener noreferrer">${project.title}</a></h3>
             <p class="project-desc">${project.description}</p>
             <div class="project-footer">
               <span class="tech-pill">${tech}</span>

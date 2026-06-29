@@ -34,39 +34,45 @@ const members = [
 
 const projects = [
 {
-    title:"Quiz App",
-    description:"Interactive MCQ Quiz Application",
-    tech:"HTML, CSS, JavaScript",
-    github:"#"
+    title: "QuizQuest",
+    description: "Interactive MCQ Quiz Application",
+    tech: "HTML, CSS, JavaScript",
+    github: "https://github.com/sakethreddypingili/QuizQuest",
+    link: "https://quizquestonline.vercel.app/"
 },
 {
-    title:"Expense Tracker",
-    description:"Track Income and Expenses",
-    tech:["HTML, CSS, JavaScript"],
-    github:"#"
+    title: "SpendWise",
+    description: "Track Income and Expenses",
+    tech: ["HTML, CSS, JavaScript"],
+    github: "https://github.com/sakethreddypingili/SpendWise",
+    link: "https://spendwiseonline.vercel.app/"
 },
 {
-    title:"News Feed",
-    description:"Latest News Application",
-    tech:["API, HTML, CSS, JS"],
-    github:"#"
+    title: "NewsHub",
+    description: "Latest News Application",
+    tech: ["API, HTML, CSS, JS"],
+    github: "https://github.com/sakethreddypingili/NewsHub",
+    link: "https://newshubonline1.vercel.app/"
 },
 {
-    title:"GitHub Explorer",
-    description:"Search GitHub Profiles",
-    tech:["GitHub API"],
-    github:"#"
+    title: "GitScout",
+    description: "Search GitHub Profiles",
+    tech: ["GitHub API"],
+    github: "https://github.com/sakethreddypingili/GitScout",
+    link: "https://gitscoutonline.vercel.app/"
 },
 {
-    title:"Kanban Board",
-    description:"Task Management Board",
-    tech:["JavaScript"],
-    github:"../Kanban Board/HTML/index.html"
+    title: "TaskFlow",
+    description: "Task Management Board",
+    tech: ["JavaScript"],
+    github: "https://github.com/sakethreddypingili/TaskFlow",
+    link: "https://taskflowonline.vercel.app/"
 },
 {
-    title:"Portfolio",
-    description:"Team Portfolio Website",
-    tech:["HTML, CSS, JS"],
-    github:"#"
+    title: "InovateX",
+    description: "Team Portfolio Website",
+    tech: ["HTML, CSS, JS"],
+    github: "https://github.com/sakethreddypingili/InovateX",
+    link: "https://inovatexonline.vercel.app/"
 }
 ];
