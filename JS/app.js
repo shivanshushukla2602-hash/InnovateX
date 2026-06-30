@@ -38,3 +38,10 @@ const emailHelp = document.querySelector("#emailHelp");
 const submitBtn = document.querySelector("#submitBtn");
 
 submitBtn.addEventListener("click" , function(event){
+
+    event.preventDefault();
+
+    // Flag ---> check karne ke liye agar ek bhi invalid nikla to hum input field ka data erase nahi karenge
+    let isValid = true;
+
+    let name = nameInput.value.trim();
