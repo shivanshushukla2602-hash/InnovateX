@@ -30,3 +30,18 @@ function renderProjects() {
           <div class="flip-back project-card">
             <p class="project-desc">${project.description}</p>
             <div class="project-footer">
+              <span class="tech-pill">${tech}</span>
+              <div class="project-actions">
+                <a href="${project.github}" target="_blank" class="gh-btn" onclick="event.stopPropagation()">
+                  <i class="bi bi-github"></i> Code
+                </a>
+                <a href="${project.deployed}" target="_blank" class="view-btn" onclick="event.stopPropagation()">
+                  <i class="bi bi-eye"></i> View
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>`;
+  });
+}
